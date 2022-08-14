@@ -7,13 +7,13 @@
 }
 .bgimg{
   background-image: url("../images/2348037618013_status_bebc5f62070047399aaae827e0ebb11b.jpg");
-  height: 90vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .bgh1{
   color: white;
