@@ -166,7 +166,7 @@ footer p{
     width: 24%;
   } 
   .bgimg{
-    background-repeat: repeat;
+    background-repeat: repeat-y;
     background-size: contain;
   }
 }
