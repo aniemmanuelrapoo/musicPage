@@ -1,19 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: normal;
+}
+.bgimg{
+  background-image: url("../images/2348037618013_status_bebc5f62070047399aaae827e0ebb11b.jpg");
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgh1{
+  color: white;
+  font-size: 36px;
+  font-weight: normal;
+}
+.bgh1 span{
+  background-color: #00000099;
+  padding: 3px 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.all{
+  padding: 30px;
+}
+
+.aboutcatering{
+  display: flex;
+  border-bottom: 3px solid #eee;
+  padding-bottom: 30px;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}
+.aboutcatering img{
+  width: 100%;
+}
+.about1{
+  width: 49%;
+}
+.catsec{
+  font-weight: lighter;
+  word-spacing: 0.1em;
+  width: 49%;
+}
+.catsec h1{
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+.subhead{
+  text-align: center;
+  padding-bottom: 10px;
+  letter-spacing: 00.2em;
+}
+.catsec p{
+  font-size: 15px;
+}
+
+span{
+  background-color: #eee;
+}
+.subpara{
+  color: rgb(136, 133, 133);
+}
 .flex2con{
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 .sec{
-  width: 24%;
+  width: 100%;
   margin-bottom: 30px;
 }
 .sec img{
-  filter: grayscale(100%);
   width: 100%;
+}
+.sec h3{
+  text-align: center;
+  padding: 20px 0px;
 }
 .sec a{
   color: black;
   text-decoration: none; 
-  width: 95%;
+  width: 100%;
   padding: 10px;
   font-size: 15px;
   display: inline-block;
@@ -21,15 +96,14 @@
   background-color: #eee;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  /* body {background: red;} */
-  .flex2con{
-    flex-direction: column;
-  }
-  .sec{
-    width: 100%;
-  }
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+footer p{
+  padding: 30px;
+  margin-top: 0px 40px;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -40,6 +114,10 @@
   }
   .sec{
     width: 100%;
+  }
+  .bgimg{
+    background-repeat: repeat;
+    background-size: contain;
   }
 }
 
@@ -52,6 +130,26 @@
   .sec{
     width: 49%;
   }
+  .about1{
+    width: 45%;
+  }
+  .catsec{
+    width: 45%;
+  }
+  .catsec h1{
+    font-size: 40px;
+  }
+  .subhead{
+    padding-bottom: 20px;
+  }
+  .catsec p{
+    line-height: 25px;
+    font-size: 18px;
+  }
+  
+  span{
+    background-color: #eee;
+  }
 }
 
 
@@ -63,5 +161,5 @@
   }
   .sec{
     width: 24%;
-  }
+  } 
 }
