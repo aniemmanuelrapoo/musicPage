@@ -95,7 +95,9 @@ span{
   text-align: center;
   background-color: #eee;
 }
-
+.team1{
+  height: 310px;
+}
 footer{
   background-color: black;
   color: white;
