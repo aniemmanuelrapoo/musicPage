@@ -13,7 +13,7 @@
   align-items: flex-end;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 .bgh1{
   color: white;
@@ -117,6 +117,10 @@ footer p{
   .sec{
     width: 100%;
   }
+  .bgimg{
+    background-repeat: repeat;
+    background-size: contain;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -148,7 +152,6 @@ footer p{
   span{
     background-color: #eee;
   }
-  
 }
 
 
@@ -161,7 +164,4 @@ footer p{
   .sec{
     width: 24%;
   } 
-  .bgimg{
-    background-repeat: repeat-x;
-  }
 }
