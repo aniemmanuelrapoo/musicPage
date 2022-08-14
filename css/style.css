@@ -120,6 +120,7 @@ footer p{
   .bgimg{
     background-repeat: repeat;
     background-size: contain;
+    height: 70vh;
   }
 }
 
