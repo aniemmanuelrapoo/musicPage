@@ -118,7 +118,7 @@ footer p{
     width: 100%;
   }
   .bgimg{
-    background-repeat: repeat;
+    background-repeat: repeat-x;
     background-size: contain;
   }
 }
