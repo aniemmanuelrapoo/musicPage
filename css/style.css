@@ -13,7 +13,7 @@
   align-items: flex-end;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 .bgh1{
   color: white;
