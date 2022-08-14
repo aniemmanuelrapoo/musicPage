@@ -12,8 +12,8 @@
   justify-content: center;
   align-items: flex-end;
   background-position: top;
-  /* background-repeat: no-repeat; */
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .bgh1{
   color: white;
@@ -117,10 +117,6 @@ footer p{
   .sec{
     width: 100%;
   }
-  .bgimg{
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -167,6 +163,5 @@ footer p{
   } 
   .bgimg{
     background-repeat: repeat-y;
-    background-size: contain;
   }
 }
