@@ -5,6 +5,10 @@
   font-family: "Segoe UI",Arial,sans-serif;
   font-weight: normal;
 }
+
+h3{
+  text-transform: uppercase;
+}
 .bgimg{
   background-image: url("../images/2348037618013_status_bebc5f62070047399aaae827e0ebb11b.jpg");
   height: 90vh;
@@ -65,6 +69,10 @@
 
 span{
   background-color: #eee;
+}
+
+.spanA{
+  margin-bottom: 3px;
 }
 .subpara{
   color: rgb(136, 133, 133);
